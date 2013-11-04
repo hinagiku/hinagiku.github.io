@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-   <title>BeiYuu.com</title>
-   <link href="http://beiyuu.com/atom.xml" rel="self" type="application/atom+xml"/>
-   <link href="http://beiyuu.com" rel="alternate" type="text/html" />
+   <title>google.com</title>
+   <link href="http://google.com/atom.xml" rel="self" type="application/atom+xml"/>
+   <link href="http://google.com" rel="alternate" type="text/html" />
    <updated>2013-10-29T14:06:06+08:00</updated>
-   <id>http://beiyuu.com</id>
+   <id>http://google.com</id>
    <author>
      <name></name>
      <email></email>
@@ -14,9 +14,9 @@
    
    <entry>
      <title>CSS3动画详解</title>
-     <link href="http://beiyuu.com/css3-animation"/>
+     <link href="http://google.com/css3-animation"/>
      <updated>2013-08-24T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/css3-animation</id>
+     <id>http://google.com/css3-animation</id>
      <content type="html">&lt;h2&gt;CSS3动画&lt;/h2&gt;
 
 &lt;p&gt;有人认为CSS动画是做了js的事情，较真起来也算，只是已经抢占许多年了，早些年要实现鼠标滑过链接变色的基本效果，需要动用Java Applet，后来只需给HTML元素加事件&lt;code&gt;onclick=changecolor()&lt;/code&gt;，再之后正如你所知，只要写&lt;code&gt;:hover&lt;/code&gt;、&lt;code&gt;:focus&lt;/code&gt;这样的伪类即可，同样的，现在有了CSS3动画。&lt;/p&gt;
@@ -893,9 +893,9 @@ var tz = Math.round( ( panelSize / 2 ) /
    
    <entry>
      <title>Grunt.js 在前端项目中的实战</title>
-     <link href="http://beiyuu.com/grunt-in-action"/>
+     <link href="http://google.com/grunt-in-action"/>
      <updated>2013-07-17T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/grunt-in-action</id>
+     <id>http://google.com/grunt-in-action</id>
      <content type="html">&lt;h2&gt;Grunt是什么？&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;是一个基于JavaScript的任务运行工具。&lt;/p&gt;
@@ -1342,9 +1342,9 @@ grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
    
    <entry>
      <title>豆瓣FM(iOS 3.0)使用体会</title>
-     <link href="http://beiyuu.com/douban-fm"/>
+     <link href="http://google.com/douban-fm"/>
      <updated>2013-06-06T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/douban-fm</id>
+     <id>http://google.com/douban-fm</id>
      <content type="html">&lt;p&gt;豆瓣FM发布了全新设计的3.0版本，很多Feature不错：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1414,9 +1414,9 @@ grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
    
    <entry>
      <title>史蒂夫·乔布斯：遗失的访谈</title>
-     <link href="http://beiyuu.com/jobs-interview"/>
+     <link href="http://google.com/jobs-interview"/>
      <updated>2013-05-14T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/jobs-interview</id>
+     <id>http://google.com/jobs-interview</id>
      <content type="html">&lt;h2&gt;1、做公司就是做产品&lt;/h2&gt;
 
 &lt;p&gt;乔布斯从12岁开始，就捣鼓着好玩有用的产品，在惠普兼职的那些日子，也让他体会到了科技的魅力，原来凭一个人的力量也可以有如此之大的影响力，也是在惠普他认识了沃兹尼亚克。&lt;/p&gt;
@@ -1465,9 +1465,9 @@ grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
    
    <entry>
      <title>Tabby</title>
-     <link href="http://beiyuu.com/tabby"/>
+     <link href="http://google.com/tabby"/>
      <updated>2013-04-12T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/tabby</id>
+     <id>http://google.com/tabby</id>
      <content type="html">&lt;p&gt;用&lt;a href=&quot;https://chrome.google.com/webstore/detail/tabby/pifnjkdglcfkfpdjdolfacpfdlgpdkhp&quot; title=&quot;Tabby&quot;&gt;Tabby&lt;/a&gt;有一阵子了，最近把细节完善，发布在了Chrome Store。&lt;/p&gt;
 
 &lt;p&gt;他的功能是，当你打开几十上百个Chrome标签，很占资源，不想加入书签，也不想存入Instapaper等Read It Later的东西，只看一次，但就是不想现在看，这时候只要在页面点击右键，选择“暂存到Tabby”即可。&lt;/p&gt;
@@ -1501,9 +1501,9 @@ grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
    
    <entry>
      <title>编写可读代码的艺术</title>
-     <link href="http://beiyuu.com/readable-code"/>
+     <link href="http://google.com/readable-code"/>
      <updated>2013-03-21T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/readable-code</id>
+     <id>http://google.com/readable-code</id>
      <content type="html">&lt;p&gt;这是《The Art of Readable Code》的读书笔记，再加一点自己的认识。强烈推荐此书：&lt;/p&gt;
 
 &lt;ul&gt;
@@ -2995,9 +2995,9 @@ if ($document) {
    
    <entry>
      <title>40届全美音乐奖和55届格莱美颁奖演出观感</title>
-     <link href="http://beiyuu.com/40-ama-55-grammy"/>
+     <link href="http://google.com/40-ama-55-grammy"/>
      <updated>2013-02-19T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/40-ama-55-grammy</id>
+     <id>http://google.com/40-ama-55-grammy</id>
      <content type="html">&lt;h2&gt;40届全美音乐奖(Ameican Musican Awards)&lt;/h2&gt;
 
 &lt;p&gt;1、少了英伦小清新的全美音乐奖，总体来说还是俗气了些；&lt;/p&gt;
@@ -3066,9 +3066,9 @@ if ($document) {
    
    <entry>
      <title>只有好的棋手才会走运</title>
-     <link href="http://beiyuu.com/build-facebook"/>
+     <link href="http://google.com/build-facebook"/>
      <updated>2013-01-21T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/build-facebook</id>
+     <id>http://google.com/build-facebook</id>
      <content type="html">&lt;p&gt;能和Facebook这样的公司一起成长太幸福，对作者真是羡慕嫉妒恨。&lt;/p&gt;
 
 &lt;p&gt;Facebook快速并且顺利的成长，作者初期选择他，悬念并不大，不过在第一章谈到对公司的忠诚度倒是个不错的话题，树倒猢狲散、墙倒众人推，这就是现实，更何况赤裸裸的签订的打工合同，每个人都会做对自己最有利的选择，同样的，公司招聘也不是做慈善，所以忠诚在这里的定义是，在职期间尽心尽力做到自己该做的事情。&lt;/p&gt;
@@ -3095,9 +3095,9 @@ if ($document) {
    
    <entry>
      <title>令人焦虑的列表设计</title>
-     <link href="http://beiyuu.com/bad-list-design"/>
+     <link href="http://google.com/bad-list-design"/>
      <updated>2013-01-17T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/bad-list-design</id>
+     <id>http://google.com/bad-list-design</id>
      <content type="html">&lt;p&gt;用列表展现数据，再平常不过了，想想通讯录、微薄、播放列表、博客目录，都是。&lt;/p&gt;
 
 &lt;p&gt;先来看看全宇宙最奇葩、但是自认为全世界最好用的软件iTunes的播放列表：&lt;/p&gt;
@@ -3130,9 +3130,9 @@ if ($document) {
    
    <entry>
      <title>宗教基本知识</title>
-     <link href="http://beiyuu.com/religion-basic"/>
+     <link href="http://google.com/religion-basic"/>
      <updated>2013-01-10T00:00:00+08:00</updated>
-     <id>http://beiyuu.com/religion-basic</id>
+     <id>http://google.com/religion-basic</id>
      <content type="html">&lt;p&gt;我并不想探究宗教的起源和对社会的影响等课题，作为一个宗教方面的文盲，就想了解些最基本概念，让我可以听得懂笑话，看得懂纠葛。&lt;/p&gt;
 
 &lt;p&gt;基督教、伊斯兰教与佛教并列三大宗教。但要先从亚伯拉罕说起。&lt;/p&gt;
