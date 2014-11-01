@@ -1,163 +1,206 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-    <!--
-    * Author:         hayate
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hello World!</title>
+    
+    <meta name="author" content="Name Lastname">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     -->
-    <meta charset="utf-8" />
-    <title>google.com</title>
-    <meta name="author" content="BieYuu" />
-    <meta name="description" content="hayate's Blog" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-</head>
-<body>
 
-    <div class="home-menu">
-        <div class="home-icon-con">
-            <a class="home-menu-icon" href="/">hayate</a>
-            <a class="home-follow" href="#" title="Contact Me">+</a>
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Jekyll Bootstrap</a>
         </div>
-        <div class="home-contact">
-            <a href="http://weibo.com/hayate/" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-            <a href="http://www.douban.com/people/hayate/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-            <a href="http://instagram.com/hayate/" target="_blank" style="text-align:right"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
-        </div>
-    </div>
 
-    <div class="index-content blog">
-    <div class="section">
-        <ul class="artical-cate">
-            <li class="on"><a href="/"><span>Blog</span></a></li>
-            <li style="text-align:center"><a href="/opinion"><span>Opinion</span></a></li>
-            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
-        </ul>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
 
-        <div class="cate-bar"><span id="cateBar"></span></div>
 
-        <ul class="artical-list">
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
         
-            <li>
-                <h2><a href="/css3-animation">CSS3动画详解</a></h2>
-                <div class="title-desc">随着低版本IE份额下降，以及移动端流量的增长，在项目中也可以大胆使用CSS3动画来增强体验和提高产品的优雅程度，对那些不支持的浏览器也不用再费心去做更多兼容，所以，我们来研究下CSS3动画，到底应该怎么用。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/grunt-in-action">Grunt.js 在前端项目中的实战</a></h2>
-                <div class="title-desc">在前端发展越来越需要工具的今天，Grunt.js这样的任务管理工具必不可少，一些流行的前端项目，也早已经用上了这个强大的工具，为项目的发布提供了不少方便，感谢这些牛人们做出的伟大贡献，如何在自己的项目中使用，就是这篇blog要研究的问题。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/readable-code">编写可读代码的艺术</a></h2>
-                <div class="title-desc">将《The Art of Readable Code》的读书笔记和一点自己的认识总结起来写就这么一篇博客，强烈推荐此书。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/religion-basic">宗教基本知识</a></h2>
-                <div class="title-desc">关于几个主要宗教的一些基本概念整理，了解一下，可以更有文化一点。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/git-vim-tutorial">Git时代的VIM不完全使用教程</a></h2>
-                <div class="title-desc">在Git流行的时代，VIM的生态环境也有了长足的进步，令人感动。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/backbone-js-chrome-extension">使用Backbone.js开发Chrome便签插件</a></h2>
-                <div class="title-desc">没有合适的插件，就只好自己动手了，同时也用Backbone.js来练练手。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/buy-guitar">如何选择与购买吉他</a></h2>
-                <div class="title-desc">选择一把属于自己的吉他，并不是一件简单的事情，方方面面都需要注意到才会买到满意的吉他。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/github-pages">使用Github Pages建独立博客</a></h2>
-                <div class="title-desc">Github本身就是不错的代码社区，他也提供了一些其他的服务，比如Github Pages，使用它可以很方便的建立自己的独立博客，并且免费。</div>
-            </li>
-        
-            <li>
-                <h2><a href="/why-blog">我为什么写博客？</a></h2>
-                <div class="title-desc">写博客这个这么古老的行为，还有必要拿出来说吗，我看有。</div>
-            </li>
-        
-        </ul>
-    </div>
-    <div class="aside">
-    </div>
+<div class="page-header">
+  <h1>Hello World!  <small>Supporting tagline</small></h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    
+<p>Read <a href="http://jekyllbootstrap.com/usage/jekyll-quick-start.html">Jekyll Quick Start</a></p>
+
+<p>Complete usage and documentation available at: <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a></p>
+
+<h2 id="update-author-attributes">Update Author Attributes</h2>
+
+<p>In <code>_config.yml</code> remember to specify your own data:</p>
+
+<pre><code>title : My Blog =)
+
+author :
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+</code></pre>
+
+<p>The theme should reference these variables whenever needed.</p>
+
+<h2 id="sample-posts">Sample Posts</h2>
+
+<p>This blog contains sample posts which help stage pages and blog data.
+When you don’t need the samples anymore just delete the <code>_posts/core-samples</code> folder.</p>
+
+<pre><code>$ rm -rf _posts/core-samples
+</code></pre>
+
+<p>Here’s a sample “posts list”.</p>
+
+<ul class="posts">
+  
+    <li><span>29 Dec 2011</span> &raquo; <a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
+  
+</ul>
+
+<h2 id="to-do">To-Do</h2>
+
+<p>This theme is still unfinished. If you’d like to be added as a contributor, <a href="http://github.com/plusjade/jekyll-bootstrap">please fork</a>!
+We need to clean up the themes, make theme usage guides with theme-specific markup examples.</p>
+
+
+  </div>
 </div>
 
 
+      </div>
 
-<script type="text/javascript">
-    $(function(){
-        function animateBar($item,noAni){
-            var spanLeft = $item.find('span').offset().left;
-            var conLeft = $item.parent().offset().left;
-            var left = spanLeft - conLeft;
-            var width = $item.find('span').width() + 8;
+    </div>
 
-            if(noAni){
-                $('#cateBar').css({left:left,width:width})
-            }else{
-                $('#cateBar').stop().animate({left:left,width:width},300)
-            }
-        }
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2014 Name Lastname
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </div>
+    </div>
 
-        var waitForFinalEvent = (function () {
-            var timers = {};
-            return function (callback, ms, uniqueId) {
-                if (!uniqueId) {
-                    uniqueId = "Don't call this twice without a uniqueId";
-                }
-                if (timers[uniqueId]) {
-                    clearTimeout (timers[uniqueId]);
-                }
-                timers[uniqueId] = setTimeout(callback, ms);
-            };
-        })();
-
-        $('.artical-cate li').mouseenter(function(){
-            animateBar($(this));
-        }).mouseleave(function(){
-            animateBar($('.artical-cate .on'));
-        });
-
-        $(window).resize(function(e){
-            waitForFinalEvent(function(){
-                animateBar($('.artical-cate .on'));
-            })
-        })
-        animateBar($('.artical-cate .on'),true);
-    });
-</script>
-
-
-    <!--*********************************************************-->
-    <!--****** 宝贝儿，看见这个时候，删掉下面的统计代码哦~ ******-->
-    <!--************* 再推荐下我的第一篇博客哦~~ ****************-->
-    <!--*********************************************************-->
-	<!--*<div class="hide">
-        <script type="text/javascript" src="http://js.tongji.linezing.com/2727758/tongji.js"></script>
-        <noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2727758/tongji.gif"/></a></noscript>
-    </div>*-->
     
-    <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
 
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
-            });
-        })
-    </script>
-</body>
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
+
