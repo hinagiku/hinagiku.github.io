@@ -72,7 +72,7 @@ We need to clean up the themes, make theme usage guides with theme-specific mark
 	// 百度地图API功能
 	var map = new BMap.Map("l-map");         
 	map.centerAndZoom(new BMap.Point(119.048303,33.586255), 15);
-	var start = "淮安南站";
+	var start = "淮安汽车客运南站";
 	var end = "富春大都会";
 	var routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
 	var transit = new BMap.TransitRoute(map, {
