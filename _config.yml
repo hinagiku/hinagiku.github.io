@@ -76,6 +76,9 @@ JB :
   rss_path : /rss.xml
 
   cloud_path : /cloud.html
+  gallery_path : /gallery.html
+  music_path : /music.html
+  magic_path : /magic.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
