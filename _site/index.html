@@ -1,255 +1,148 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>3D Menu</title>
+        <meta name="description" content="A responsive folded flyer-like restaurant menu with some 3D" />
+        <meta name="keywords" content="css3, perspective, 3d, jquery, transform3d, responsive, template, restaurant, menu, leaflet, folded, flyer, concept" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="assets/menu/css/style.css" />
+		<link href='http://fonts.useso.com/css?family=Raleway:300,500|Arvo:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="assets/menu/js/modernizr.custom.79639.js"></script>
+		<!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+		
+			<!--&lt;!&ndash; Codrops top bar &ndash;&gt;-->
+            <!--<div class="codrops-top">-->
+                <!--<a href="http://tympanus.net/Tutorials/BigVideoSlideshow/">-->
+                    <!--<strong>&laquo; Previous Demo: </strong>Fullscreen Video Slideshow with BigVideo.js-->
+                <!--</a>-->
+                <!--<span class="right">-->
+                	<!--<a href="http://www.flickr.com/photos/hisgett/369087090/sizes/m/in/photostream/">Restaurant image by ahisgett</a>-->
+                    <!--<a href="http://tympanus.net/codrops/?p=11029">-->
+                        <!--<strong>Back to the Codrops Article</strong>-->
+                    <!--</a>-->
+                <!--</span>-->
+            <!--</div>&lt;!&ndash;/ Codrops top bar &ndash;&gt;-->
+			
+			<header>
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<span class="no-cssanimations">CSS animations are not supported in your browser</span>
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span>
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
 
-    <title>Hello World!</title>
-    
-    <meta name="author" content="Name Lastname">
+				<div id="rm-container" class="rm-container">
 
-    <!-- Enable responsive viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<div class="rm-wrapper">
 
-    <!-- Bootstrap styles -->
-    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Optional theme -->
-    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- Sticky Footer -->
-    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
-    
-    <!-- Custom styles -->
-    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+						<div class="rm-cover">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+							<div class="rm-front" style="background-image: url(assets/menu/images/menu.png);">
+								<!--<div class="rm-content">-->
 
-    <!-- Fav and touch icons -->
-    <!-- Update these with your own images
-      <link rel="shortcut icon" href="images/favicon.ico">
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    -->
+									<!--<div class="rm-logo"></div>-->
+									<!--<h2>富春大都会</h2>-->
+									<!--<h3>吃好喝好</h3>-->
 
-    <!-- atom & rss feed -->
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+									<!--<a href="#" class="rm-button-open">打开</a>-->
+									<!--<div class="rm-info">-->
+										<!--<p>-->
+										<!--<strong>地址</strong><br>-->
+										<!--淮安市青浦区<br>-->
+                                            <!--承德南路与解放路交叉处<br>-->
+									<!--</div>-->
+                                    <!--<strong><a href="/">查看地图</a></strong></p>-->
 
-  </head>
+								<!--</div>&lt;!&ndash; /rm-content &ndash;&gt;-->
+                                <div class="rm-content aoe" id="aoe">
+                                    <a href="#" class="rm-button-open" style="font-size: 24px">打开</a>
+                                </div>
+							</div><!-- /rm-front -->
 
-  <body>
-    <div id="wrap">
-      <nav class="navbar navbar-default" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">Jekyll Bootstrap</a>
+							<div class="rm-back">
+								<div class="rm-content">
+                                    <table class="table_css">
+                                        <tr>
+                                            <td style="vertical-align:bottom;">陈<br>亮<br>、<br>李<br>茜<br>敬<br>邀</td>
+                                            <td>届<br>时<br>恭<br>请<br>您<br>光<br>临</td>
+                                            <td>为<br>陈<br>亮<br>、<br>李<br>茜<br>举<br>行<br>结<br>婚<br>典<br>礼</td>
+                                        </tr>
+                                    </table>
+								</div><!-- /rm-content -->
+								<div class="rm-overlay"></div>
+
+							</div><!-- /rm-back -->
+
+						</div><!-- /rm-cover -->
+
+						<div class="rm-middle">
+							<div class="rm-inner">
+								<div class="rm-content">
+                                    <table class="table_css">
+                                        <tr>
+                                            <td>在<br><b>富</b><br><b>春</b><br><b>大</b><br><b>都</b><br><b>会</b></td>
+                                            <td><span class="xuanzhuan">（</span><br>星<br>期<br>六<br><span class="xuanzhuan">）</span><br>下<br>午<br>18<br>时<br>18<br>分</td>
+                                            <td>谨<br>定<br>于<br>公 农<br>历 历<br><b>11 十</b><br><b>月 月</b><br><b>29 初</b><br><b>日 八</b></td>
+                                            <td style="vertical-align:top;">送<br>呈</td>
+                                        </tr>
+                                    </table>
+								</div><!-- /rm-content -->
+								<div class="rm-overlay"></div>
+							</div><!-- /rm-inner -->
+						</div><!-- /rm-middle -->
+
+						<div class="rm-right">
+
+							<div class="rm-front">
+
+							</div>
+
+							<div class="rm-back">
+								<span class="rm-close">Close</span>
+								<div class="rm-content">
+									<h4>帮助</h4>
+									<dl>
+                                        <dt><a href="/" class="rm-viewdetails" data-thumb="images/9.jpg">查看地图</a></dt>
+                                        <dd style="border-bottom:4px double #323b4c">如果您是乘坐长途汽车</dd>
+                                        <br>
+										<dt><a href="/gallery.html" class="rm-viewdetails" data-thumb="images/9.jpg">婚纱照</a></dt>
+										<dd style="border-bottom:4px double #323b4c">我们的回忆 甜蜜的印记</dd>
+									</dl>
+									<div class="rm-order">
+										<p><strong>您能来，是我们最大的荣幸。</strong></p>
+									</div>
+								</div><!-- /rm-content -->
+							</div><!-- /rm-back -->
+
+						</div><!-- /rm-right -->
+					</div><!-- /rm-wrapper -->
+
+				</div><!-- /rm-container -->
+
+			</section>
+			
         </div>
+		<!-- jQuery if needed -->
+        <script type="text/javascript" src="http://ajax.useso.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/menu/js/menu.js"></script>
+		<script type="text/javascript">
+			$(function() {
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-            
-
-
-  
-    
-      
-      	
-      	<li><a href="/archive.html">Archive</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/categories.html">Categories</a></li>
-      	
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/pages.html">Pages</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/tags.html">Tags</a></li>
-      	
-      
-    
-  
-
-
-
-          </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-        </div><!-- /.navbar-collapse -->
-      </nav>
-
-      <div class="container">
-        
-<div class="page-header">
-  <h1>Hello World!  <small>Supporting tagline</small></h1>
-</div>
-
-<div class="row">
-  <div class="col-xs-12">
-    
-<p>Read <a href="http://jekyllbootstrap.com/usage/jekyll-quick-start.html">Jekyll Quick Start</a></p>
-
-<p>Complete usage and documentation available at: <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a></p>
-
-<h2 id="update-author-attributes">Update Author Attributes</h2>
-
-<p>In <code>_config.yml</code> remember to specify your own data:</p>
-
-<pre><code>title : My Blog =)
-
-author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-</code></pre>
-
-<p>The theme should reference these variables whenever needed.</p>
-
-<h2 id="sample-posts">Sample Posts</h2>
-
-<p>This blog contains sample posts which help stage pages and blog data.
-When you don’t need the samples anymore just delete the <code>_posts/core-samples</code> folder.</p>
-
-<pre><code>$ rm -rf _posts/core-samples
-</code></pre>
-
-<p>Here’s a sample “posts list”.</p>
-
-<ul class="posts">
-  
-    <li><span>29 Dec 2011</span> &raquo; <a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
-  
-</ul>
-
-<h2 id="to-do">To-Do</h2>
-
-<p>This theme is still unfinished. If you’d like to be added as a contributor, <a href="http://github.com/plusjade/jekyll-bootstrap">please fork</a>!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.</p>
-
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-	<style type="text/css">
-		body, html {width: 100%;height: 100%; margin:0;font-family:"微软雅黑";}
-		#l-map{height:500px;width:100%;}
-	</style>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=2917d1cc8d9ab95ca225d76bcefee56d"></script>
-	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
-	<title>根据起终点名称查询公交换乘</title>
-</head>
-<body>
-	<div id="l-map"></div>
-	<div id="driving_way">
-		<select>
-			<option value="0">最少时间</option>
-			<option value="1">最少换乘</option>
-			<option value="2">最少步行</option>
-			<option value="3">不乘地铁</option>
-		</select>
-		<input type="button" id="result" value="查询" />
-	</div>
-</body>
+				Menu.init();
+			
+			});
+		</script>
+    </body>
 </html>
-<script type="text/javascript">
-	// 百度地图API功能
-	var map = new BMap.Map("l-map");         
-	map.centerAndZoom(new BMap.Point(119.048303,33.586255), 15);
-	var start = "淮安汽车客运南站";
-	var end = "富春大都会";
-	var routePolicy = [BMAP_TRANSIT_POLICY_LEAST_TIME,BMAP_TRANSIT_POLICY_LEAST_TRANSFER,BMAP_TRANSIT_POLICY_LEAST_WALKING,BMAP_TRANSIT_POLICY_AVOID_SUBWAYS];
-	var transit = new BMap.TransitRoute(map, {
-			renderOptions: {map: map},
-			policy: 0
-		});
-	$("#result").click(function(){
-		map.clearOverlays(); 
-		var i=$("#driving_way select").val();
-		search(start,end,routePolicy[i]); 
-		function search(start,end,route){ 
-			transit.setPolicy(route);
-			transit.search(start,end);
-		}
-	});
-</script>
-
-
-  </div>
-</div>
-
-
-      </div>
-
-    </div>
-
-    <div id="footer">
-      <div class="container">
-        <p>&copy; 2014 Name Lastname
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </div>
-    </div>
-
-    
-
-
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
-  </body>
-</html>
-
