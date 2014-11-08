@@ -18,6 +18,7 @@ var Menu = (function() {
 			$open.on( 'click', function( event ) {
 
 				openMenu();
+                $('#aoe').css('display', 'none');
 				return false;
 
 			} );
@@ -25,6 +26,7 @@ var Menu = (function() {
 			$close.on( 'click', function( event ) {
 
 				closeMenu();
+                $('#aoe').css('display', '');
 				return false;
 
 			} );
@@ -55,7 +57,7 @@ var Menu = (function() {
 				description = recipe.parent().next().text(),
 				url = recipe.attr( 'href' );
 
-			var $modal = $( '<div class="rm-modal"><div class="rm-thumb" style="background-image: url(' + img + ')"></div><h5>' + title + '</h5><p>' + description + '</p><a href="' + url + '">See the recipe</a><span class="rm-close-modal">x</span></div>' );
+			var $modal = $( '<div class="rm-modal"><div class="rm-thumb" style="background-image: url(' + img + ')"></div><h5>' + title + '</h5><p>' + description + '</p><a href="' + url + '">查看</a><span class="rm-close-modal">x</span></div>' );
 
 			$modal.appendTo( $container );
 
