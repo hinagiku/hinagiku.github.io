@@ -333,4 +333,9 @@
     };
 
 })( jQuery, window, document );
+function noMenuOne()
+{
+    return false;
+}
+document.oncontextmenu = noMenuOne;
 
