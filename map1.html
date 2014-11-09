@@ -63,7 +63,7 @@
 //    });
 
     var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
-            '地址：承德路与解放东路交叉处<br/>电话：051783979777' +
+            '地址：承德路与解放东路交叉处<br/>电话：0517-83979777' +
             '</div>';
 
     //创建检索信息窗口对象
@@ -84,7 +84,9 @@
     marker.addEventListener("click", function(e){
         searchInfoWindow.open(marker);
     })
-    map.addOverlay(marker); //在地图中添加marker
+    map.addOverlay(marker); //在地图中添加marker              // 将标注添加到地图中
+    var label = new BMap.Label("富春大都会",{offset:new BMap.Size(20,-10)});
+    marker.setLabel(label);
 
 
     var point2 = new BMap.Point(119.044553,33.566396);
